@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar{
+    display: flex;
+    list-style: none;
+    color:white;
+    padding: 20px;
+}
+#header{
+    width:100%;
+    height:100vh ;
+    background-image:linear-gradient(rgba(0,0,0,0.423),rgba(128,128,128,0.4)),url(../asset/images/headerimg.jpg);
+    background-size: 100%;
+    position: absolute;
+    top:0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 10px black;
+
+}
+.sublist{
+    padding-left: 40px;
+    font-size: 24px;
+    transition: transform 0.2s;
+    height: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#right{
+    position: absolute;
+    right: 20px;
+}
+.sublist:hover{
+    transform: scale(1.2);
+}
+#containerplace{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.places{
+    width:20vw;
+    height: 30vh;
+    background-color: tomato;
+    background-size: 100% 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px black;
+    border-radius:5px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+.places:hover{
+    background-size: 110% 32vh;
+    transform: scale(1.2);
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+}
+#place1{
+    background-image: linear-gradient(rgba(136, 96, 96, 0.771),rgba(128, 128, 128, 0.158)),url(../asset/images/india.jpg);
+}
+#place2{
+    background-image: linear-gradient(rgba(136, 96, 96, 0.771),rgba(128, 128, 128, 0.158)),url(../asset/images/swiz.jpg);
+}
+#place3{
+    background-image: linear-gradient(rgba(136, 96, 96, 0.771),rgba(128, 128, 128, 0.158)),url(../asset/images/japan.jpg);
+}
+#place4{
+    background-image: linear-gradient(rgba(136, 96, 96, 0.771),rgba(128, 128, 128, 0.158)),url(../asset/images/dubai.jpg);
+}
+#heading{
+    width:45vw;
+    height: 80vh;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+}
+#textheading{
+    font-size: 11vw;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Asap Condensed', sans-serif;
+    letter-spacing: 10px;
+}
